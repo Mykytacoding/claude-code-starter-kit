@@ -27,10 +27,14 @@ This repo is both a working toolkit you can deploy and a reference implementatio
 | Component | What It Is |
 |---|---|
 | `core/` | Base `CLAUDE.md` template + `settings.json` with 30 curated permission rules |
-| `use-cases/content-creator/` | Complete setup for content creators — brand voice, content calendar, 2 skills |
+| `use-cases/content-creator/` | Brand voice, content calendar, 2 skills |
+| `use-cases/spreadsheet-automation/` | Sheet map, automation patterns, 2 skills (requires Google Sheets MCP) |
+| `use-cases/general-productivity/` | Tools map, workflows doc, 2 skills |
 | `skills/` | 3 universal skills: project setup, daily review, content drafting |
-| `mcp-guides/` | Step-by-step guides for GitHub MCP and Google Sheets MCP |
-| `ARCHITECTURE.md` | Full explanation of the thin-pointer pattern with diagrams |
+| `mcp-guides/` | Step-by-step guides for GitHub, Google Sheets, Notion, and Filesystem MCPs |
+| `install/` | Interactive setup scripts for Mac/Linux and Windows |
+| `docs/` | Architecture deep-dive, skills vs agents, memory system, customization guide |
+| `ARCHITECTURE.md` | Thin-pointer pattern explained with before/after diagrams |
 
 ---
 
@@ -40,26 +44,28 @@ This repo is both a working toolkit you can deploy and a reference implementatio
 Connect Claude to your brand voice and content calendar. Draft posts, plan content, and stay consistent — without pasting guidelines every session.
 → [`use-cases/content-creator/`](./use-cases/content-creator/README.md)
 
-### Spreadsheet Automation *(Phase 2)*
+### Spreadsheet Automation
 Let Claude read, update, and report on your Google Sheets. Map your sheet structure once; Claude navigates it from then on.
-→ Coming soon
+→ [`use-cases/spreadsheet-automation/`](./use-cases/spreadsheet-automation/README.md) *(requires [Google Sheets MCP](./mcp-guides/google-sheets.md))*
 
-### General Productivity *(Phase 2)*
+### General Productivity
 Task triage, weekly reviews, and workflow management tailored to how you actually work.
-→ Coming soon
+→ [`use-cases/general-productivity/`](./use-cases/general-productivity/README.md)
 
 ---
 
 ## Quick Start
 
 1. Clone this repo: `git clone https://github.com/Mykytacoding/claude-code-starter-kit.git`
-2. Choose a use case from `use-cases/`
-3. Copy the use case folder into your project directory
-4. Open `CLAUDE.md` and fill in the `[BRACKETED PLACEHOLDERS]`
+2. Run the setup script:
+   - **Mac/Linux:** `chmod +x install/setup.sh && ./install/setup.sh`
+   - **Windows:** `.\install\setup.ps1`
+   - **Manual:** follow [`install/README.md`](./install/README.md)
+3. The script will ask which use case to install and copy the files for you (backing up anything that already exists)
+4. Open `CLAUDE.md` in your project and fill in the `[BRACKETED PLACEHOLDERS]`
 5. Fill in your doc files (`docs/voice-guide.md`, etc.) with your actual content
-6. Copy `core/settings.json.template` to `~/.claude/settings.json` (or merge with your existing one)
-7. Open Claude Code in your project directory
-8. Run `/project-setup` to verify everything is wired correctly
+6. Open Claude Code in your project directory
+7. Run `/project-setup` to verify everything is wired correctly
 
 **That's it.** Claude now has persistent context for your project.
 
@@ -114,8 +120,8 @@ Model Context Protocol (MCP) servers extend Claude's reach to external tools and
 |---|---|---|
 | [GitHub MCP](./mcp-guides/github.md) | GitHub repos, issues, PRs | Developers, project managers |
 | [Google Sheets MCP](./mcp-guides/google-sheets.md) | Spreadsheets, data | Analysts, operations, freelancers |
-| Notion MCP *(Phase 2)* | Notion pages, databases | Knowledge workers |
-| Filesystem MCP *(Phase 2)* | Local files and folders | Power users, automation |
+| [Notion MCP](./mcp-guides/notion.md) | Notion pages, databases | Knowledge workers |
+| [Filesystem MCP](./mcp-guides/filesystem.md) | Local files and folders | Power users, automation |
 
 ---
 
