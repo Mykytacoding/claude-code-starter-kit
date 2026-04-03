@@ -1,0 +1,85 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls *)",
+      "Bash(find *)",
+      "Bash(cat *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(stat *)",
+      "Bash(which *)",
+      "Bash(pwd *)",
+      "Bash(echo *)",
+      "Bash(date *)",
+
+      "Bash(grep *)",
+      "Bash(sort *)",
+      "Bash(wc *)",
+      "Bash(diff *)",
+      "Bash(cut *)",
+      "Bash(jq *)",
+
+      "Bash(cp *)",
+      "Bash(mv *)",
+      "Bash(mkdir *)",
+      "Bash(touch *)",
+
+      "Bash(git status *)",
+      "Bash(git log *)",
+      "Bash(git diff *)",
+      "Bash(git show *)",
+      "Bash(git branch *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git pull *)",
+      "Bash(git fetch *)",
+      "Bash(git checkout *)",
+      "Bash(git stash *)",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+
+      "Bash(gh *)",
+
+      "Bash(python *)",
+      "Bash(python3 *)",
+      "Bash(pip *)",
+      "Bash(node *)",
+      "Bash(npm *)",
+      "Bash(npx *)",
+
+      "Bash(tar *)",
+      "Bash(zip *)",
+      "Bash(unzip *)",
+
+      "Read(*)",
+      "Glob(*)",
+      "Grep(*)",
+      "Edit(*)",
+      "Write(*)",
+      "Skill(*)",
+      "Agent(*)"
+    ],
+
+    "deny": [
+      "Bash(git reset --hard*)",
+      "Bash(git push --force*)",
+      "Bash(git push --force-with-lease*)",
+      "Bash(git clean -f*)",
+
+      "Bash(rm -rf /*)",
+      "Bash(rm -rf ~*)",
+      "Bash(rm -rf .git*)",
+
+      "Bash(shutdown *)",
+      "Bash(reboot *)",
+      "Bash(mkfs *)",
+      "Bash(dd *)",
+
+      "Bash(curl * | bash)",
+      "Bash(curl * | sh)",
+      "Bash(wget * | bash)",
+      "Bash(wget * | sh)"
+    ]
+  }
+}

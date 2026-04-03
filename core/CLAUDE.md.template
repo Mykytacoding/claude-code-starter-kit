@@ -1,0 +1,68 @@
+# [PROJECT NAME] — Claude Context
+
+> **Instructions:** Replace every [BRACKETED PLACEHOLDER] with your real information.
+> Delete lines that don't apply. Delete this instructions block when done.
+> This file is loaded automatically by Claude Code when you open this directory.
+
+---
+
+## What I'm Doing Here
+
+[1-2 sentences describing the project or workspace and your goal with it.]
+
+**My role:** [Your role — e.g., "freelance content creator", "solo founder", "data analyst"]
+
+**Primary goal:** [What you want Claude to help you accomplish here]
+
+---
+
+## My Docs
+
+> **Instructions:** List the knowledge files Claude should reference.
+> Keep this list short — only files Claude actually needs to read for this project.
+
+| Doc | What's In It |
+|-----|-------------|
+| [Doc name](./docs/[filename].md) | [One-line description] |
+| [Doc name](./docs/[filename].md) | [One-line description] |
+
+---
+
+## Skills Available
+
+> **Instructions:** List the skills installed for this project (in ~/.claude/skills/ or local skills/).
+> Claude will use these when relevant, or you can invoke them with /skill-name.
+
+| Skill | What It Does |
+|-------|-------------|
+| `/[skill-name]` | [What it does] |
+| `/[skill-name]` | [What it does] |
+
+---
+
+## How I Work With Claude
+
+> **Instructions:** Set expectations for how Claude should behave in this workspace.
+> Copy the defaults below and modify as needed.
+
+- Read my docs before doing anything domain-specific — don't guess
+- Ask one clarifying question if a request is ambiguous, not five
+- Complete tasks fully — don't outline when I ask for a draft, don't explain when I ask for code
+- If something in my docs is outdated or contradictory, flag it rather than silently working around it
+
+---
+
+## What I Want You to Remember
+
+> **Instructions:** Add anything project-specific that doesn't fit elsewhere — recurring preferences, current focus, things to always or never do.
+
+[Add your own notes here, or delete this section.]
+
+---
+
+## Project Context
+
+- **Working directory:** [PATH — e.g., ~/my-project/ or G:\Projects\MyProject\]
+- **Primary tools:** [Languages, platforms, services you use]
+- **External services:** [APIs, databases, platforms Claude might interact with]
+- **Private context:** [Point to CLAUDE.local.md if you have one — "See CLAUDE.local.md for personal preferences"]
