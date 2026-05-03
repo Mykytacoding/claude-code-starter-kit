@@ -125,18 +125,8 @@ Model Context Protocol (MCP) servers extend Claude's reach to external tools and
 
 ---
 
-## Want This Set Up For You?
-
-I set up Claude Code ecosystems for freelancers, creators, and small teams — custom skills, MCP integrations, and persistent memory tuned to your specific workflow.
-
-**[Hire me on Upwork →](https://www.upwork.com/freelancers/mykytacoding)**
-
-Typical engagement: 1–2 hours. You end the call with a working system, not a to-do list.
-
----
-
 ## About the Author
 
-I'm Mykyta — a data specialist and automation builder with a background in Python, SQL, and AI workflow tooling. I've been building on top of Claude Code since early access, and this kit is the distillation of what actually works in production. I built this system for my own work first; now I help others deploy it.
+I'm Mykyta — a data specialist and automation builder with a background in Python, SQL, and AI workflow tooling. I've been building on top of Claude Code since early access, and this kit is the distillation of what actually works in production. I built this system for my own work first; now I'm open-sourcing the patterns.
 
-[GitHub](https://github.com/Mykytacoding) · [Upwork](https://www.upwork.com/freelancers/mykytacoding)
+[GitHub](https://github.com/Mykytacoding)
