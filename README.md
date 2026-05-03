@@ -56,7 +56,7 @@ Task triage, weekly reviews, and workflow management tailored to how you actuall
 
 ## Quick Start
 
-1. Clone this repo: `git clone https://github.com/Mykytacoding/claude-code-starter-kit.git`
+1. Clone this repo: `git clone https://github.com/mykyta-lytvynenko/claude-code-starter-kit.git`
 2. Run the setup script:
    - **Mac/Linux:** `chmod +x install/setup.sh && ./install/setup.sh`
    - **Windows:** `.\install\setup.ps1`
@@ -129,4 +129,4 @@ Model Context Protocol (MCP) servers extend Claude's reach to external tools and
 
 I'm Mykyta — a data specialist and automation builder with a background in Python, SQL, and AI workflow tooling. I've been building on top of Claude Code since early access, and this kit is the distillation of what actually works in production. I built this system for my own work first; now I'm open-sourcing the patterns.
 
-[GitHub](https://github.com/Mykytacoding)
+[GitHub](https://github.com/mykyta-lytvynenko)

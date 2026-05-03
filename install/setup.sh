@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Claude Code Starter Kit — Setup Script (Mac / Linux)
-# https://github.com/Mykytacoding/claude-code-starter-kit
+# https://github.com/mykyta-lytvynenko/claude-code-starter-kit
 
 set -euo pipefail
 

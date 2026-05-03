@@ -1,5 +1,5 @@
 # Claude Code Starter Kit — Setup Script (Windows PowerShell)
-# https://github.com/Mykytacoding/claude-code-starter-kit
+# https://github.com/mykyta-lytvynenko/claude-code-starter-kit
 #
 # Run from PowerShell: .\install\setup.ps1
 
